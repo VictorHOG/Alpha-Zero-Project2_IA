@@ -6,11 +6,12 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    a.setWindowIcon(QIcon("C:/Users/Usuario/Documents/QTProjects/untitled/images/icon"));
+    a.setWindowIcon(QIcon("C:/Users/Usuario/Documents/QTProjects/AlphaZeroIA/images/icon"));
+
 
     //Add Splash Screen
     QSplashScreen *splash = new QSplashScreen;
-    splash->setPixmap(QPixmap("C:/Users/Usuario/Documents/QTProjects/untitled/images/mariosplash.png"));
+    splash->setPixmap(QPixmap("C:/Users/Usuario/Documents/QTProjects/AlphaZeroIA/images/alphazero.png"));
     splash->show();
 
     MainWindow mainWin;
